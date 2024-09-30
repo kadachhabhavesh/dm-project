@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS
+#from flask_cors import CORS
 import joblib
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Load your trained model
 model = joblib.load('ipl.pkl')
-CORS(app)  # Enable CORS for all routes
+#CORS(app)  # Enable CORS for all routes
 
 @app.route('/predict', methods=['POST'])
 def predict():
