@@ -1,3 +1,5 @@
-pip install --upgrade pip
-pip install Flask
-pip install -U scikit-learn
+
+
+streamlit
+pandas
+numpy
