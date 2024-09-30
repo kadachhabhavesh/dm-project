@@ -2,3 +2,4 @@ Flask
 Streamlit
 pandas
 numpy
+joblib
